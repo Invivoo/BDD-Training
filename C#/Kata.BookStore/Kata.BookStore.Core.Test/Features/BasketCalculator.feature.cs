@@ -33,7 +33,7 @@ namespace Kata.BookStore.Core.Test.Features
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "BasketCalculator", "\tIn order to satisfy my customers\r\n\tAs a BookShop Seller\r\n\tI want to calculate cu" +
-                    "stomer\'s basket amount, apply discounts and give customer loyalty points", ProgrammingLanguage.CSharp, new string[] {
+                    "stomer\'s basket amount with or without discount codes", ProgrammingLanguage.CSharp, new string[] {
                         "BasketCalculator"});
             testRunner.OnFeatureStart(featureInfo);
         }

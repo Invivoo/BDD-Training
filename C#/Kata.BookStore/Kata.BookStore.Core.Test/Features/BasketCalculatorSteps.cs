@@ -41,12 +41,6 @@ namespace Kata.BookStore.Core.Test.Features
             ScenarioContext.Current.Pending();
         }
 
-        [Then(@"the total amount should be (.*) €")]
-        public void ThenTheTotalAmountShouldBe(int p0)
-        {
-            ScenarioContext.Current.Pending();
-        }
-
         [Given(@"the discount code ""(.*)"" is set")]
         public void GivenTheDiscountCodeIsSet(string p0)
         {
@@ -54,7 +48,7 @@ namespace Kata.BookStore.Core.Test.Features
         }
 
         [Then(@"the total amount should be (.*) €")]
-        public void ThenTheTotalAmountShouldBe(Decimal p0)
+        public void ThenTheTotalAmountShouldBe(decimal p0)
         {
             ScenarioContext.Current.Pending();
         }

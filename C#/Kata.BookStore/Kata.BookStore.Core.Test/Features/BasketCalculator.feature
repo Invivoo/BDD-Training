@@ -2,7 +2,7 @@
 Feature: BasketCalculator
 	In order to satisfy my customers
 	As a BookShop Seller
-	I want to calculate customer's basket amount, apply discounts and give customer loyalty points
+	I want to calculate customer's basket amount with or without discount codes
 
 Background:
 Given the following valid discount codes
